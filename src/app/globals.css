@@ -1,0 +1,29 @@
+/* stylelint-disable */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* stylelint-enable */
+
+* {
+  @apply scroll-smooth;
+}
+
+body {
+  @apply bg-pearl text-gray-900;
+}
+
+.gradient-gold {
+  @apply bg-gradient-to-r from-gold via-gold to-gold-dark;
+}
+
+.glass-effect {
+  @apply backdrop-blur-md bg-white/50 border border-white/40;
+}
+
+.hero-gradient {
+  @apply bg-gradient-to-br from-pearl via-pearl-dark to-pearl-dark;
+}
+
+.pastel-gradient {
+  @apply bg-gradient-to-r from-pearl-dark via-pearl-dark to-pearl-dark;
+}
